@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Dream Land - Admin Panel</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      color: #fff;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    nav a:hover {
+      background-color: #555;
+    }
+    .banner {
+      position: relative;
+      background-image: url("https://img.theculturetrip.com/wp-content/uploads/2020/11/5c78be9f-1.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .banner-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .banner h1 {
+      font-size: 36px;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      margin-top: 20px; 
+    }
+    .image-gallery {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .image-gallery img {
+      width: 30%;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hotel Dream Land</h1>
+  </header>
+
+  <nav>
+    <a href="./guest_booking.html">Guest Booking</a>
+    <a href="./guest_bill.html">Guest Bill</a>
+    <a href="./guest_contact.html">Guest Contact</a>
+    <a href="guest.html">Guest Details</a>
+    <a href="./room.html">Room</a>
+    <a href="./employee.html">Employee</a>
+    <a href="./department.html">Department</a>
+  </nav>
+
+  <div class="banner">
+    <div class="banner-overlay">
+      <h1>Welcome to the Admin Panel</h1>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>Admin Dashboard</h2>
+    <p>This is the admin panel of the hotel ream Land. You can manage rooms, bookings, customers, and generate reports from here.</p>
+    <div class="image-gallery">
+      <img src="http://tipsydiaries.com/wp-content/uploads/2015/11/Main-Pool-1.jpg" alt="Image 1">
+      <img src="https://img.theculturetrip.com/wp-content/uploads/2020/12/carillon-beach-resort.jpg" alt="Image 2">
+      <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/da/47/9b/exterior.jpg?w=900&h=-1&s=1" alt="Image 3">
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Hotel Dream Land. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

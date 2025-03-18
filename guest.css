@@ -1,0 +1,92 @@
+/* tableStyle.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    width:auto;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  button {
+    background-color: #ed0c0c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #f55252;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f8f8;
+  }
+  
+  tbody tr:hover {
+    background-color: #eaeaea;
+  }
+  /* Styles for the delete button */
+.delete-button {
+    background-color: #dc3545; /* Red color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333; /* Darker shade of red on hover */
+  }
+  
+  /* Styles for the add guest button */
+  .add-button {
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-left:120px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-button:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+  }
+  
