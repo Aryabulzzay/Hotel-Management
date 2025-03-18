@@ -1,4 +1,4 @@
-# Hotel Management System - Admin Panel
+# Hotel Management System
 
 This project is a **Hotel Management System** designed to manage guest, room, employee, department, and billing information. It includes an admin panel with CRUD (Create, Read, Update, Delete) functionality for managing various entities in a hotel.
 ---
